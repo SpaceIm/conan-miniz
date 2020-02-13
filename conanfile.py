@@ -1,6 +1,4 @@
-import glob
 import os
-import shutil
 
 from conans import ConanFile, CMake, tools
 

@@ -41,7 +41,7 @@ class MinizConan(ConanFile):
 
     def build(self):
         cmake = self._configure_cmake()
-        cmake.build(target=self.name)
+        cmake.build()
 
     def _configure_cmake(self):
         if self._cmake:
